@@ -1,10 +1,11 @@
-# Full Stack Web Application (React + Node.js + MySQL)
+# Full Stack Blog Application
 
 ## 📌 Overview
 
-This project is a full stack web application developed as part of a Full Stack Web Development course. It demonstrates the integration of frontend and backend technologies using React.js, Node.js, Express, and MySQL.
+This is a full stack web application built using React.js, Node.js, Express, and MySQL.  
+The application implements RESTful APIs and supports complete CRUD operations with persistent database storage.
 
-The application implements RESTful APIs and performs CRUD (Create, Read, Update, Delete) operations with database persistence.
+The project demonstrates end-to-end development including frontend UI, backend API design, and database integration.
 
 ---
 
@@ -29,12 +30,42 @@ The application implements RESTful APIs and performs CRUD (Create, Read, Update,
 
 - Create new posts
 - View all posts
-- REST API integration
-- Database storage using MySQL
+- RESTful API architecture
+- Database persistence using MySQL
 - Async/Await handling
-- Clean MVC project structure
+- Structured MVC backend architecture
 
 ---
 
-## 🏗 Project Structure
+## 🏗 Project Architecture
 
+- Client-Server architecture
+- REST API communication
+- ORM-based database modeling
+- Modular folder structure
+
+---
+
+## 📂 Project Structure
+
+project-root/
+│
+├── client/          # React frontend
+├── server/          # Node.js backend
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   └── index.js
+│
+├── package.json
+└── README.md
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
