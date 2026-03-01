@@ -1,0 +1,38 @@
+.createPostPage {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 12px;
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.formContainer input,
+.formContainer textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.formContainer button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #6366f1;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
